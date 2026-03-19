@@ -1,6 +1,6 @@
 # Audio Restoration for MusicGen outputs
 
-Audio generato da MusicGen porta con sé artefatti introdotti dal codec neurale EnCodec (quantizzazione RVQ a 6 kbps), percepibili come smorzamento delle alte frequenze e distorsioni temporali. Questo progetto addestra una **U-Net 2D su mel spectrogrammi** per mappare l'audio degradato verso la versione clean, usando come vocoder finale **Vocos** per risintetizzare la forma d'onda. Il modello è progettato per girare su Google Colab T4 e il dataset è costruito automaticamente da FMA-small tramite la pipeline di degradazione EnCodec.
+L'audio generato da MusicGen porta con sé artefatti introdotti dal codec neurale EnCodec (quantizzazione RVQ a 6 kbps), percepibili come smorzamento delle alte frequenze e distorsioni temporali. Questo progetto addestra una **U-Net 2D su mel spectrogrammi** per mappare l'audio degradato verso la versione clean, usando come vocoder finale **Vocos** per risintetizzare la forma d'onda. Il modello è progettato per girare su Google Colab T4 e il dataset è costruito automaticamente da FMA-small tramite la pipeline di degradazione EnCodec.
 
 ---
 
