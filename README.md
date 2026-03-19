@@ -121,7 +121,7 @@ Calcola LSD, SI-SDR e MOS proxy sul test set e genera i grafici finali.
 
 ### Proof of Concept — Degradazione EnCodec
 
-![Proof of Concept](results/figures/proof_of_concept.png)
+![Proof of Concept](results/figures/prova_degradazione.png)
 
 Confronto mel spectrogram clean vs degradato da EnCodec 24kHz 6kbps su un file di musica classica. LSD = **5.76 dB**.
 
